@@ -1,3 +1,4 @@
+
 import random
 import itertools
 product=()
@@ -7,4 +8,4 @@ cardsuit = ["Of diamonds", "Of clubs", "Of spades", "Of hearts"]
 deck = list(itertools.product(cardvalue, cardsuit))
 random.shuffle(deck)
 
-print(random.choice(deck)
+print(random.choice(deck))
