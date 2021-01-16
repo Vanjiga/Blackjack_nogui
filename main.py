@@ -24,7 +24,6 @@ if game_start == "y":
         y = (random.choice(deck))
     hand.append(x)
     print(hand)
-
     dealer.append(y)
     print(dealer)
 else:
@@ -32,11 +31,14 @@ else:
    
 game_continue= input(str("Hit/Stand"))
 if game_continue == "hit":
-    for i in deck:
         x = (random.choice(deck))
         y = (random.choice(deck))
-    hand.append(x)
-    print(hand)
 
-    dealer.append(y)
-    print(dealer)
+        hand.append(x)
+        print(hand)
+        dealer.append(y)
+        print(dealer)
+        
+else:
+
+
